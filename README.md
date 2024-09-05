@@ -14,6 +14,7 @@ cl-icp-p2p stands for c++ and python *(cross-lang)* inter-process communication 
 
 ## How to setup cl-icp-p2p.
 Step 1 :
+
   Well first things first, you need to setup the c++ dll visual studio project for the client. 
   Optional : you can set up the injector too for easy injection.
   Run the `get-requirements.bat` file to install all the necessary dependencies for the Python server.
@@ -22,6 +23,7 @@ Step 1 :
   **NOTE:** MAKE SURE THAT YOUR SERVER IP & PORT IS SETUP IN BOTH SERVER AND CLIENT CODE. ALSO FIREWALL MAY BLOCK PORTS!!
 
 Step 2 :
+
   `Server listening for connections...` This is just waiting on the client to connect to the server.
   Next you need to inject the client dll into a process. *(example: explorer.exe)*
   [Process Hacker](https://processhacker.sourceforge.io/downloads.php) is a really good tool / injector for this project!
