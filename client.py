@@ -1,7 +1,7 @@
 import sys,socket,subprocess
 
 # Connect to the main server
-server_ip = '10.0.0.54'  
+server_ip = '0.0.0.0'  
 server_port = 9999
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client_socket.connect((server_ip, server_port))
